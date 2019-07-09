@@ -11,4 +11,6 @@ Available format:
 
 - Geopackage
 
+The scripts can be run using the standard Aqueuct Docker container. 
+
 
