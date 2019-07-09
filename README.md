@@ -21,7 +21,7 @@ The scripts can be run using the standard Aqueuct Docker container.
 
 Commands used:
 `apt-get install curl python-software-properties`  
-`curl -sL https://deb.nodesource.com/setup_10.x | bash -`  
+`curl -sL https://deb.nodesource.com/setup_10.x | bash -`    
 `apt-get install nodejs`  
 `npm install -g mapshaper`
 
