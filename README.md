@@ -26,9 +26,10 @@ using LTS:
 `curl -sL https://deb.nodesource.com/setup_10.x | bash -`  
 
 `apt-get install nodejs`  
-Node version: v10.16.0  
-npm version: 6.9.0  
-
 `npm install -g mapshaper`
+
+Node version: v10.16.0   
+Npm version: 6.9.0   
+Mapshaper version: 0.4.120  
 
 
