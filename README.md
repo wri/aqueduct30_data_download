@@ -19,7 +19,7 @@ The scripts can be run using the standard Aqueuct Docker container.
 1. [npm](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
 1. [mapshaper](https://github.com/mbloch/mapshaper)
 
-Commands used:
+Commands used:  
 `apt-get install curl python-software-properties`  
 `curl -sL https://deb.nodesource.com/setup_10.x | bash -`    
 `apt-get install nodejs`  
