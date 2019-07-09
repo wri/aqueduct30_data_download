@@ -16,20 +16,18 @@ The scripts can be run using the standard Aqueuct Docker container.
 
 ## Requirements
 
-1. npm
-1. mapshaper
+1. [npm](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
+1. [mapshaper](https://github.com/mbloch/mapshaper)
 
-Install npm on virtual instance [docs](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
-
+Commands used:
 `apt-get install curl python-software-properties`  
-using LTS:  
 `curl -sL https://deb.nodesource.com/setup_10.x | bash -`  
-
 `apt-get install nodejs`  
 `npm install -g mapshaper`
 
-Node version: v10.16.0   
-Npm version: 6.9.0   
-Mapshaper version: 0.4.120  
+Versions:
+Node: v10.16.0   
+Npm: 6.9.0   
+Mapshaper: 0.4.120  
 
 
