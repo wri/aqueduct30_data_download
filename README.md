@@ -14,9 +14,10 @@ Available format:
 The scripts can be run using the standard Aqueuct Docker container. 
 
 
+## Requirements
 
-Notes
-
+1. npm
+1. mapshaper
 
 Install npm on virtual instance [docs](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
 
@@ -26,6 +27,8 @@ using LTS:
 
 `apt-get install nodejs`  
 Node version: v10.16.0  
-npm version: 6.9.0
+npm version: 6.9.0  
+
+`npm install -g mapshaper`
 
 
