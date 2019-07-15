@@ -3,8 +3,8 @@
 This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our FAQ page (todo:insert link).
 
 There are two ways to download Aqueduct water risk atlas data:  
-1.  The full database, available at http://datasets.wri.org/
-1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. 
+1.  The full database, available [here](https://wri-projects.s3.amazonaws.com/Aqueduct30/finalData/Y2019M07D12_Aqueduct30_V01.zip)
+1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. (Coming soon)
 
 If you've downloaded the data using the location analyzer, we've added a few additional columns:
 
@@ -125,6 +125,8 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 |**\_weight_fraction**| (double)| the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator. |
 
 ## Monthly (Baseline)
+
+Coming soon
 
 ## Identifiers:  
 
