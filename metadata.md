@@ -197,6 +197,8 @@ Aqueduct 3.0 is available in various GIS data formats.  For QGIS, simply open th
 
 For other programs we recommend opening the GeoPackage (.gpkg) and shapefiles (.shp). 
 
+We also provide tabular data (without the geometry) in .csv (UTF-8) format. 
+
 Supported:  
 ArcMap 10.x and above  
 QGIS 3.4.x and above  
