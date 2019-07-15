@@ -192,7 +192,14 @@ r	raw value
 	
 For example the layer {ws4028cl} is "projected change in water stress by the year 2040 under a business as usual (ssp2 rcp85) scenario"	 
 
-# How to open
+# How to use  
+Aqueduct 3.0 is available in various GIS data formats.  For QGIS, simply open the QGIS project files (qgz). For use of the data in ArcMap, simply click the map package(.mpk) files and the data and styles should load correctly.
+
+For other programs we recommend opening the GeoPackage (.gpkg) and shapefiles (.shp). 
+
+Supported:  
+ArcMap 10.x and above  
+QGIS 3.4.x and above  
 
 
 
@@ -204,7 +211,9 @@ For example the layer {ws4028cl} is "projected change in water stress by the yea
 This [script](https://colab.research.google.com/drive/1wtWUCm7JHHwhGZ8LdrrLcUJkkZsAXNDe), can help you generate the column names programatically. 
 
 
+# Issues or suggestions ?
 
+Pleasse check our FAQ page and technical notes first. If the issues is unresolved, please open an issue to this github repo. 
 
 
 
