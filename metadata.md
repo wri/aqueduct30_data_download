@@ -183,10 +183,7 @@ bt	water supply
 ### {T}	Data types  
 c	change from baseline  
 t	future value  
-u	uncertainty value*  
-
-
-* Not available for water stress.
+u	uncertainty value (available for seasonal variablity and water supply)
 	
 ### {X}	Suffixes  
 l	label string  
