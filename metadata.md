@@ -2,7 +2,7 @@
 
 This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our [FAQ page](todo) 
 
-There are two ways to two ways to download Aqueduct water risk atlas data:  
+There are two ways to download Aqueduct water risk atlas data:  
 1.  The full database, available [here](https://wri-projects.s3.amazonaws.com/Aqueduct30/finalData/Y2019M07D12_Aqueduct30_V01.zip)
 1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. (Coming soon)  
 These files contain a few extra columns explained [here](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#extra-columns-for-location-analyzer)
