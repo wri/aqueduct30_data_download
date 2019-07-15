@@ -183,7 +183,10 @@ bt	water supply
 ### {T}	Data types  
 c	change from baseline  
 t	future value  
-u	uncertainty value  
+u	uncertainty value*  
+
+
+* Not available for water stress.
 	
 ### {X}	Suffixes  
 l	label string  
