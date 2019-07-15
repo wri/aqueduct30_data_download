@@ -1,18 +1,14 @@
 # Aqueduct 3.0 Water Risk Atlas Metadata
 
-This document helps you understand the downloaded Aqueduct water risk atlas data. Before diving into the results, make sure to familiarize yourself with our technical note (todo:insert link). For questions, check out our FAQ page (todo:insert link).
+This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our FAQ page (todo:insert link).
 
 There are two ways to download Aqueduct water risk atlas data:  
-1.  The full database.
-1.  Site specific data by using the location analyzer in the online tool. 
+1.  The full database, available at http://datasets.wri.org/
+1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. 
 
-Downloaded data comes in three flavors:
-1. Annual Baseline
-1. Monthly Baseline
-1. Future Projections
+If you've downloaded the data using the location analyzer, we've added a few additional columns:
 
-
-# Location columns
+# Extra columns for Location Analyzer
 These columns are only added to your data if you analyzed your locations in the online tool. Users that download the entire dataset will not have these.  
 
 
@@ -28,11 +24,13 @@ These columns are only added to your data if you analyzed your locations in the 
 | **aquifer_name**| (string)| Name of the groundwater aquifer system. |
 
 
-# Annual Baseline  
+# Baseline
+
+## Annual (Baseline)
 
 The columns in the Annual baseline results can be grouped into "identifiers", "indicators" and "grouped water risk"  
 
-## Identifiers:  
+### Identifiers:  
 | Column Name     | Data Type | Description |
 |------------------|-------------|-----|
 |**string_id**|(string)| contains a unique string for each geometry. Geometries are the union of hydrological basins, provinces and groundwater aquifers. The string_id is a combination of pfaf_id-gid_1-aqid. See the description of those columns.  |
@@ -45,12 +43,12 @@ The columns in the Annual baseline results can be grouped into "identifiers", "i
 |**name_1**| (string)| Sub-national or political entity name based on [GADM](https://gadm.org/data.html).|  
 |**area_km2**| (double)| area of the geometry in km2 (union of sub-basin, province and groundwater aquifer).|  
 
-## Indicators: 
+### Indicators: 
 
 For each of the 13 indicators the columns contain the indicator abbreviation plus the type {indicator}\_{type}, e.g.:  
 "bws_raw" is baseline water stress, raw value. The indicator abbreviations and types are listed below.  
 
-### Physical risk quantity: 
+#### Physical risk quantity: 
 | Short    | Full |
 |-------------|-----|
 |**bws**| Baseline water stress|  
@@ -62,20 +60,20 @@ For each of the 13 indicators the columns contain the indicator abbreviation plu
 |**cfr**| Coastal flood risk|  
 |**drr**| Drought risk|
 
-### Physical risk quality:
+#### Physical risk quality:
 | Short    | Full |
 |-------------|-----|
 |**ucw**| Untreated connected wastewater|  
 |**cep**| Coastal eutrophication potential|
 
-### Regulatory and reputational risk:
+#### Regulatory and reputational risk:
 | Short    | Full |
 |-------------|-----|
 |**udw**| Unimproved/no drinking water|    
 |**usa**| Unimproved/no sanitation|  
 |**rri**| Peak RepRisk ESG index|  
 
-## Types:  
+### Types:  
 | Type   | Data Type | Description |
 |------------------|-------------|-----|
 |**\_raw**| (double) | raw value. Units depend on the indicator. See the technical note.|  
@@ -83,7 +81,7 @@ For each of the 13 indicators the columns contain the indicator abbreviation plu
 |**\_label**| (string) | A label explaining the category of the indicator including threshold. e.g. "Extremely High (more than 1 in 100)".|  
 |**\_cat**| (integer) | integer for each category [-1,4], can be used for visuals.|  
 
-## Grouped water risk
+### Grouped water risk
 
 see the technical note for a description of aggregating the 13 indicators into sub-groups and an overall water risk score using the composite index approach. The grouped water risk scores use the follwing format:
 
@@ -94,7 +92,7 @@ w_awr, stand for weighted aggregated water risk. Mainly used to keep them separa
 e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting scheme for the regulatory and reputational risk group.
 
 
-### Weighting Scheme
+#### Weighting Scheme
 | Short  | Full |
 |-------------|-----|
 |**def**| Default | 
@@ -108,7 +106,7 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 |**smc**| Semiconductor |  
 |**tex**| Textile  |
 
-### Groups
+#### Groups
 | Short  | Full |
 |-------------|-----|
 |**qan**| Physical risk quantity  |
@@ -116,7 +114,7 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 |**rrr**| Regulatory and reputational risk |
 |**tot**| Total, Overall water risk. |
 
-### Types
+#### Types
 
 | Type   | Data Type | Description |
 |------------------|-------------|-----|
@@ -126,7 +124,7 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 |**\_cat**| (integer)| integer for each category [-1,4], can be used for visuals.|  
 |**\_weight_fraction**| (double)| the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator. |
 
-# Monthly Baseline
+## Monthly (Baseline)
 
 ## Identifiers:  
 
