@@ -7,7 +7,7 @@ There are two ways to two ways to download Aqueduct water risk atlas data:
 1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. (Coming soon)  
 These files contain a few extra columns explained [here](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#extra-columns-for-location-analyzer)
 
-New to GIS data or need help opening the files, see the "how to open" [section](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#how-to-use).
+New to GIS data or need help opening the files? See the "how to open" [section](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#how-to-use).
 
 # Datasets
 
@@ -17,13 +17,8 @@ The Aqueduct Water Risk Atlas features multiple water-related risk datasets:
 1. Baseline Monthly
 1. Future Projections. 
 
-
-
-# Baseline
-
-## Annual (Baseline)
-
-The columns in the Annual baseline results can be grouped into "identifiers", "indicators" and "grouped water risk"  
+## Baseline Annual
+The columns (attributes or fields) in the Annual baseline results are grouped into "identifiers", "indicators" and "grouped water risk". 
 
 ### Identifiers:  
 | Column Name     | Data Type | Description |
@@ -119,7 +114,7 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 |**\_cat**| (integer)| integer for each category [-1,4], can be used for visuals.|  
 |**\_weight_fraction**| (double)| the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator. |
 
-## Monthly (Baseline)
+## Baseline monthly
 
 Coming soon
 
@@ -139,7 +134,8 @@ Coming soon
 **\_label**, string, A label explaining the category of the indicator includin threshold. e.g. "Extremely High (more than 1 in 100)"  
 **\_cat**, integer, integer for each category [-1,4], can be used for visuals.  
 
-# Future Projections
+## Future Projections
+The columns (attributes or fields) in the future projections results are grouped into "identifiers" and "indicators". 
 
 ## Identifiers  
 **BasinID**, integer, Sub-basin identifiers.   
@@ -187,7 +183,7 @@ r	raw value
 For example the layer {ws4028cl} is "projected change in water stress by the year 2040 under a business as usual (ssp2 rcp85) scenario"	 
 
 
-# Extra columns for Location Analyzer
+## Extra columns for Location Analyzer
 These columns are only added to your data if you analyzed your locations in the online tool. Users that download the entire dataset will not have these.  
 
 
