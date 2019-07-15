@@ -1,18 +1,9 @@
 # Aqueduct 30 Data Download
-Make the Aqueduct 3.0 database available for download.
 
-Data includes:  
-
-- Annual results
-- Monthly results
-- Future Projections 
-
-Available format:  
-
-- Geopackage
-
-The scripts can be run using the standard Aqueuct Docker container. 
-
+Repository contains:
+1. Metadata for users that downloaded the entire database
+1. Metadata for users that used the analyze functionality of the tool. 
+1. scripts used to prepare the full database download option. 
 
 ## Requirements
 
