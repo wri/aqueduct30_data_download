@@ -1,12 +1,15 @@
-This document will help you understand the downloaded Aqueduct data. Before diving into the results, make sure to familiarize yourself with our technical notes (todo:insert link). For questions, check out our FAQ page (todo:insert link)
+# Aqueduct 3.0 Water Risk Atlas Metadata
+
+This document helps you understand the downloaded Aqueduct water risk atlas data. Before diving into the results, make sure to familiarize yourself with our technical note (todo:insert link). For questions, check out our FAQ page (todo:insert link).
+
+There are two ways to download Aqueduct water risk atlas data:  
+1.  The full database.
+1.  Site specific data by using the location analyzer in the online tool. 
 
 Downloaded data comes in three flavors:
-1. [Annual Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#annual-baseline
-)
-1. [Monthly Baseline](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#monthly-baseline)
-1. [Future Projections](https://github.com/wri/aqueduct_analyze_locations/blob/master/data_download/instructions.md#future-projections)
-
-This [script](https://colab.research.google.com/drive/1wtWUCm7JHHwhGZ8LdrrLcUJkkZsAXNDe), can help you generate the column names programatically. 
+1. Annual Baseline
+1. Monthly Baseline
+1. Future Projections
 
 
 # Location columns
@@ -190,6 +193,9 @@ For example the layer {ws4028cl} is "projected change in water stress by the yea
 
 
 
+## Misc
+
+This [script](https://colab.research.google.com/drive/1wtWUCm7JHHwhGZ8LdrrLcUJkkZsAXNDe), can help you generate the column names programatically. 
 
 
 
