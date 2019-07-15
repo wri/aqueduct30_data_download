@@ -18,6 +18,9 @@ The Aqueduct Water Risk Atlas features multiple water-related risk datasets:
 1. Future Projections. 
 
 ## Baseline Annual
+
+This dataset contains the main Aqueduct framework. This is the dataset that most users are interested in.
+
 The columns (attributes or fields) in the Annual baseline results are grouped into "identifiers", "indicators" and "grouped water risk". 
 
 ### Identifiers:  
