@@ -147,8 +147,6 @@ Coming soon
 
 # Future Projections
 
-There are four indicators, three target years, three scenarios, three data types	
-
 ## Identifiers  
 **BasinID**, integer, Sub-basin identifiers.   
 **dwnBasinID**, integer, Next downstream sub-basin.   
@@ -156,6 +154,8 @@ There are four indicators, three target years, three scenarios, three data types
 **Shape_Leng**, double, Perimeter of the sub-basin in kilometer.  
 	
 ## Indicators  
+There are four indicators, three target years, three scenarios, three data types.  	
+
 The indicators use the following format:  
 {II}{YY}{SS}{R}{X}	 
 
