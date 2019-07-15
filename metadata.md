@@ -203,7 +203,7 @@ These columns are only added to your data if you analyzed your locations in the 
 
 
 # How to use  
-Aqueduct 3.0 is available in various GIS data formats.  For QGIS, simply open the QGIS project files (qgz). For use of the data in ArcMap, simply click the map package(.mpk) files and the data and styles should load correctly.
+Aqueduct 3.0 is available in various GIS data formats.  For QGIS, simply open the QGIS project files (qgz). For use of the data in ArcMap, simply click the project files(.mxd) files and the data and styles should load correctly.
 
 For other programs we recommend opening the GeoPackage (.gpkg) and shapefiles (.shp). 
 
