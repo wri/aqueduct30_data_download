@@ -6,6 +6,7 @@ There are two ways to download Aqueduct water risk atlas data:
 1.  The full database, available [here](https://wri-projects.s3.amazonaws.com/Aqueduct30/finalData/Y2019M07D12_Aqueduct30_V01.zip)
 1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. (Coming soon)
 
+New to GIS data or need help opening the files, see the "how to open" [section](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#how-to-use)
 If you've downloaded the data using the location analyzer, we've added a few additional columns:
 
 # Extra columns for Location Analyzer
@@ -190,6 +191,11 @@ l	label string
 r	raw value  
 	
 For example the layer {ws4028cl} is "projected change in water stress by the year 2040 under a business as usual (ssp2 rcp85) scenario"	 
+
+# How to open
+
+
+
 
 
 
