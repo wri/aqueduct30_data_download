@@ -1,28 +1,22 @@
 # Aqueduct 3.0 Water Risk Atlas Metadata
 
-This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our FAQ page (todo:insert link).
+This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our [FAQ page](todo) 
 
-There are two ways to download Aqueduct water risk atlas data:  
+There are two ways to two ways to download Aqueduct water risk atlas data:  
 1.  The full database, available [here](https://wri-projects.s3.amazonaws.com/Aqueduct30/finalData/Y2019M07D12_Aqueduct30_V01.zip)
 1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. (Coming soon)
+	These files contain a few extra columns explained [here]()
 
-New to GIS data or need help opening the files, see the "how to open" [section](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#how-to-use)
-If you've downloaded the data using the location analyzer, we've added a few additional columns:
+New to GIS data or need help opening the files, see the "how to open" [section](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#how-to-use).
 
-# Extra columns for Location Analyzer
-These columns are only added to your data if you analyzed your locations in the online tool. Users that download the entire dataset will not have these.  
+# Datasets
 
+The Aqueduct Water Risk Atlas features multiple water-related risk datasets:
 
-| Column Name     | Data Type | Description |
-|------------------|-------------|-----|
-| **location_name** |(string) | the user-defined name for your location.| 
-| **input_address** |(string) | a copy of the address as specified by the user. Only if using addresses as input file. |
-| **match_address** |(string) | the address as matched by our geocode API. You can check if the match was succesful by comparing with the input_address. Only if using addresses as input file. |  
-| **latitude** | (double) | location latitude (y) in decimal degres. Either specified by the user or derived from the geocoder API. |
-| **longtitude** | (double)| location longitude (x) in decimal degrees. Either specified by the user or derived from the geocoder API. |
-| **major_basin_name** | (string)| Name of the major river basin name. |
-| **minor_basin_name** | (string) | Name of the minor river basin name. |
-| **aquifer_name**| (string)| Name of the groundwater aquifer system. |
+1. Baseline Annual
+1. Baseline Monthly
+1. Future Projections. 
+
 
 
 # Baseline
@@ -191,6 +185,23 @@ l	label string
 r	raw value  
 	
 For example the layer {ws4028cl} is "projected change in water stress by the year 2040 under a business as usual (ssp2 rcp85) scenario"	 
+
+
+# Extra columns for Location Analyzer
+These columns are only added to your data if you analyzed your locations in the online tool. Users that download the entire dataset will not have these.  
+
+
+| Column Name     | Data Type | Description |
+|------------------|-------------|-----|
+| **location_name** |(string) | the user-defined name for your location.| 
+| **input_address** |(string) | a copy of the address as specified by the user. Only if using addresses as input file. |
+| **match_address** |(string) | the address as matched by our geocode API. You can check if the match was succesful by comparing with the input_address. Only if using addresses as input file. |  
+| **latitude** | (double) | location latitude (y) in decimal degres. Either specified by the user or derived from the geocoder API. |
+| **longtitude** | (double)| location longitude (x) in decimal degrees. Either specified by the user or derived from the geocoder API. |
+| **major_basin_name** | (string)| Name of the major river basin name. |
+| **minor_basin_name** | (string) | Name of the minor river basin name. |
+| **aquifer_name**| (string)| Name of the groundwater aquifer system. |
+
 
 # How to use  
 Aqueduct 3.0 is available in various GIS data formats.  For QGIS, simply open the QGIS project files (qgz). For use of the data in ArcMap, simply click the map package(.mpk) files and the data and styles should load correctly.
