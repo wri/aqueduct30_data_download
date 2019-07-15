@@ -64,7 +64,7 @@ For each of the 13 indicators the columns contain the indicator abbreviation plu
 |-------------|-----|
 |**udw**| Unimproved/no drinking water|    
 |**usa**| Unimproved/no sanitation|  
-|**rri**| Peak RepRisk ESG index|  
+|**rri**| Peak RepRisk country ESG risk index|  
 
 ### Types:  
 | Type   | Data Type | Description |
