@@ -28,8 +28,4 @@
 
 Test 
 
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
+ <font color="red">This is some text!</font> 
