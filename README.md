@@ -1,4 +1,4 @@
-# Aqueduct 30 Data Download
+# Aqueduct 30 Water Risk Atlas Data Download
 
 Repository contains:
 1. Metadata for users that downloaded the entire database
