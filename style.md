@@ -40,7 +40,7 @@ used for individual indicators, grouped and overall water risk. Note that descri
 ### Water Supply
 | description | hex |
 | --- | --- |
-|‘>1000 cm|#0000FF|
+|>1000 cm|#0000FF|
 |300-1000 cm|#4169E1|
 |100-300 cm|#1E90FF|
 |30-100 cm|#00BFFF|
