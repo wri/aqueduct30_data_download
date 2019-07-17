@@ -203,9 +203,12 @@ These columns are only added to your data if you analyzed your locations in the 
 
 
 # How to use  
-Aqueduct 3.0 is available in various GIS data formats.  For QGIS, simply open the QGIS project files (qgz). For use of the data in ArcMap, simply click the project files(.mxd) files and the data and styles should load correctly.
+Aqueduct 3.0 is available in various GIS data formats. The entire database comes in a zipped folder. Unzip the folder first. 
+For QGIS, simply open the QGIS project files (.qgz). For use of the data in ArcMap, simply click the project files(.mxd) files and the data and styles should load correctly.
 
 For other programs we recommend opening the GeoPackage (.gpkg) and shapefiles (.shp). 
+
+The baseline data is not available in shapefile format because the number of columns exceeds the maximum of this format.
 
 We also provide tabular data (without the geometry) in Excel (.csv UTF-8) format. 
 
