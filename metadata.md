@@ -1,5 +1,7 @@
 # Aqueduct 3.0 Water Risk Atlas Metadata
 
+**Data is embargoed until August 6th. Do not use / share without permission from WRI**
+
 This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our [FAQ page](todo). The methodology and a full description of the indicators can be found in the Aqueduct 3.0 technical note and future projections technical note (todo: add link when ready).   
 
 There are two ways to download Aqueduct water risk atlas data:  
