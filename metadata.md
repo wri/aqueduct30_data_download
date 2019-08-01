@@ -2,6 +2,13 @@
 
 **Data is embargoed until August 6th. Do not use / share without permission from WRI**
 
+Suggested Citation: Hofste, R., S. Kuzma, S. Walker, E.H.
+Sutanudjaja, et. al. 2019. “Aqueduct 3.0: Updated Decision-
+Relevant Global Water Risk Indicators.” Technical Note.
+Washington, DC: World Resources Institute. Available online at:
+https://www.wri.org/publication/aqueduct-30.  
+
+
 This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our [FAQ page](todo). The methodology and a full description of the indicators can be found in the Aqueduct 3.0 technical note and future projections technical note (todo: add link when ready).   
 
 There are two ways to download Aqueduct water risk atlas data:  
