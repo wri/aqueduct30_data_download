@@ -1,6 +1,6 @@
 # Aqueduct 3.0 Water Risk Atlas Metadata
 
-**Data is embargoed until August 6th. Do not use / share without permission from WRI**
+**Data is embargoed until August 6th 2019. Do not use / share without permission from WRI**
 
 Suggested Citation: Hofste, R., S. Kuzma, S. Walker, E.H.
 Sutanudjaja, et. al. 2019. “Aqueduct 3.0: Updated Decision-
