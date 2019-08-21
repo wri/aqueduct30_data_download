@@ -121,10 +121,24 @@ e.g. w_awr_min_rrr_score is the aggregated score using the mining weighting sche
 | Type   | Data Type | Description |
 |------------------|-------------|-----|
 |**\_raw**| (double)| raw value on 0-5 scale. Result of weighted composite approach|  
-|**\_score**| (double) | score [0-5], result of applying a quantile approach to raw values. See technical note |  
+|**\_score**| (double) | score [0-5], result of applying a quantile approach to raw values. See below |  
 |**\_label**| (string) | A label explaining the category of the grouped water risk.|  
 |**\_cat**| (integer)| integer for each category [-1,4], can be used for visuals.|  
 |**\_weight_fraction**| (double)| the fraction [0-1] of the group towards the overall water risk score. NoData is excluded from the weights and therefore the fractions can be lower than 1 depending on data availability. See the technical note for the weights per industy and indicator. |
+
+
+#### Quantile linear interpolation. 
+Aggregating multiple scores will change the distribution of the data. Therefore we calculate the quantiles and use linear interpolation to remap the raw values to 0-5 scores. The quantiles can be obtained from the data but are also listed below. 
+
+| percentile | score | quantity | quality | regulatory and reputational | overall |
+|------------|-------|----------|---------|-----------------------------|---------|
+| 0          | 0     | 0.00     | 0.00    | 0.00                        | 0.00    |
+| 0.2        | 1     | 0.72     | 1.45    | 0.30                        | 1.01    |
+| 0.4        | 2     | 1.09     | 2.20    | 1.39                        | 1.61    |
+| 0.6        | 3     | 1.60     | 2.92    | 2.81                        | 2.10    |
+| 0.8        | 4     | 2.34     | 3.83    | 3.93                        | 2.68    |
+| 1          | 5     | 5.00     | 5.00    | 5.00                        | 5.00    |
+
 
 ## Baseline monthly
 
