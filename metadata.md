@@ -37,7 +37,7 @@ The columns (attributes or fields) in the Annual baseline results are grouped in
 |------------------|-------------|-----|
 |**string_id**|(string)| contains a unique string for each geometry. Geometries are the union of hydrological basins, provinces and groundwater aquifers. The string_id is a combination of pfaf_id-gid_1-aqid. See the description of those columns.  |
 |**aq30_id**|(integer)| unique identifier in numeric format.|  
-|**pfaf_id**| (integer)| six digit Pfafstetter code for the hydrological basins.| 
+|**pfaf_id**| (integer)| six digit Pfafstetter code for the [hydrological basins](https://hydrosheds.org/page/hydrobasins).| 
 |**gid_1**| (string)| identifier for sub-national units based on the [GADM](https://gadm.org/data.html) dataset. It contains the Iso A3 country code, followed by numeric values separated by underscores for each sub-national unit.|   
 |**aqid**| (integer)| identifier for groundwater Aquifers based on WHYMAP.|
 |**gid_0** | (string)| ISO A3 country code based on [GADM](https://gadm.org/data.html).|   
