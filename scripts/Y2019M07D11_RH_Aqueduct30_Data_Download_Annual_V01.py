@@ -18,7 +18,7 @@ Docker: rutgerhofste/gisdocker:ubuntu16.04
 TESTING = 0
 
 SCRIPT_NAME = "Y2019M07D11_RH_Aqueduct30_Data_Download_Annual_V01"
-OUTPUT_VERSION = 2
+OUTPUT_VERSION = 3
 
 S3_INPUT_PATH = {}
 S3_INPUT_PATH["master_geom_simplified"] = "s3://wri-projects/Aqueduct30/processData/Y2019M07D09_RH_Simplified_Geometries_V01/output_V02"
@@ -248,74 +248,81 @@ df_annual = df_annual[annual_column_names]
 
 # In[23]:
 
-gdf_annual = gdf.merge(df_annual,on="string_id",how="left")
+# Added on 2019 07 23
+df_annual.drop(columns=["rri_raw"],inplace=True)
+
 
 
 # In[24]:
 
-gdf_annual.shape
+gdf_annual = gdf.merge(df_annual,on="string_id",how="left")
 
 
 # In[25]:
 
-gdf_annual.head()
+gdf_annual.shape
 
 
 # In[26]:
 
-gdf_annual.sort_values(by="aq30_id",inplace=True)
+gdf_annual.head()
 
 
 # In[27]:
+
+gdf_annual.sort_values(by="aq30_id",inplace=True)
+
+
+# In[28]:
 
 gdf_annual.fillna(value=-9999,inplace=True)
 
 
 # # Export
 
-# In[28]:
+# In[29]:
 
 output_filename_annual = "y2019m07d11_aqueduct30_annual_v01"
 
 
-# In[29]:
+# In[30]:
 
 output_path_annual = "{}/{}".format(ec2_output_path,output_filename_annual)
 
 
-# In[30]:
+# In[ ]:
 
-#gdf_annual.to_file(driver="GPKG",
-#                   filename=output_path_annual + ".gpkg",
-#                   encoding="UTF-8")
-
-
-# In[31]:
-
-# limited to 255 columns
-gdf_annual.to_file(driver="ESRI Shapefile",
-                   filename=output_path_annual + ".shp",
+gdf_annual.to_file(driver="GPKG",
+                   filename=output_path_annual + ".gpkg",
                    encoding="UTF-8")
 
 
-# In[32]:
+# In[ ]:
+
+# limited to 255 columns
+#gdf_annual.to_file(driver="ESRI Shapefile",
+#                   filename=output_path_annual + ".shp",
+#                   encoding="UTF-8")
+
+
+# In[ ]:
 
 df_annual = gdf_annual.drop("geometry",axis=1)
 
 
-# In[33]:
+# In[ ]:
 
 df_annual.to_csv(path_or_buf=output_path_annual+".csv",
                  encoding="UTF-8",
                  index=False)
 
 
-# In[34]:
+# In[ ]:
 
 get_ipython().system('aws s3 cp {ec2_output_path} {s3_output_path}  --recursive')
 
 
-# In[35]:
+# In[ ]:
 
 end = datetime.datetime.now()
 elapsed = end - start

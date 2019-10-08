@@ -18,7 +18,7 @@ Docker: rutgerhofste/gisdocker:ubuntu16.04
 TESTING = 0
 
 SCRIPT_NAME = "Y2019M07D12_RH_Aqueduct30_Data_Download_Monthly_V01"
-OUTPUT_VERSION = 2
+OUTPUT_VERSION = 3
 
 S3_INPUT_PATH = {}
 S3_INPUT_PATH["hybas"] = "s3://wri-projects/Aqueduct30/processData/Y2017M08D02_RH_Merge_HydroBasins_V02/output_V04"
@@ -77,10 +77,15 @@ from shapely.geometry import MultiPolygon, shape
 
 # In[7]:
 
-input_path_geom = "{}/{}".format(ec2_input_path,INPUT_FILENAME["hybas"])
+gpd.__version__
 
 
 # In[8]:
+
+input_path_geom = "{}/{}".format(ec2_input_path,INPUT_FILENAME["hybas"])
+
+
+# In[9]:
 
 def convert_row_to_multipolygon(row):
     if row.type == "Polygon":
@@ -168,39 +173,39 @@ def process_gdf(gdf):
     
 
 
-# In[9]:
+# In[10]:
 
 gdf_in = gpd.read_file(filename=input_path_geom)
 
 
-# In[10]:
+# In[11]:
 
 gdf_in.shape
 
 
-# In[11]:
+# In[12]:
 
 gdf = process_gdf(gdf_in)
 
 
-# In[12]:
+# In[13]:
 
 gdf.head()
 
 
 # # Add monthly tabular data, pivot
 
-# In[13]:
+# In[14]:
 
 indicators = ["bws",'bwd','iav']
 
 
-# In[14]:
+# In[15]:
 
 months = range(1,12+1)
 
 
-# In[15]:
+# In[16]:
 
 
 for indicator in indicators:
@@ -218,29 +223,29 @@ for indicator in indicators:
                         right_index=True)
 
 
-# In[16]:
+# In[17]:
 
 output_filename= "{}".format(SCRIPT_NAME).lower()
 
 
-# In[17]:
+# In[18]:
 
 output_path = "{}/{}".format(ec2_output_path,output_filename)
 
 
-# In[ ]:
+# In[19]:
 
 gdf.to_file(driver="GPKG",
             filename=output_path + ".gpkg",
             encoding="UTF-8")
 
 
-# In[ ]:
+# In[20]:
 
 get_ipython().system('aws s3 cp {ec2_output_path} {s3_output_path}  --recursive')
 
 
-# In[ ]:
+# In[21]:
 
 end = datetime.datetime.now()
 elapsed = end - start
@@ -248,7 +253,9 @@ print(elapsed)
 
 
 # Previous runs:  
-# 0:02:06.463591
+# 0:02:06.463591  
+# 0:02:01.624344
+# 
 # 
 
 # In[ ]:
