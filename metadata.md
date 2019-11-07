@@ -142,7 +142,6 @@ Aggregating multiple scores will change the distribution of the data. Therefore 
 
 ## Baseline monthly
 
-Coming soon
 
 ## Identifiers:  
 
