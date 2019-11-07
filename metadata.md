@@ -160,7 +160,7 @@ Aggregating multiple scores will change the distribution of the data. Therefore 
 **\_cat**, integer, integer for each category [-1,4], can be used for visuals.  
 
 ## Future Projections
-The columns (attributes or fields) in the future projections results are grouped into "identifiers" and "indicators". 
+The columns (attributes or fields) in the future projections results are grouped into "identifiers" and "indicators". [Methodology document](https://www.wri.org/publication/aqueduct-water-stress-projections-decadal-projections-water-supply-and-demand-using)
 
 ## Identifiers  
 **BasinID**, integer, Sub-basin identifiers.   
