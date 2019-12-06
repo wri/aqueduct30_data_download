@@ -8,6 +8,7 @@ Relevant Global Water Risk Indicators.” Technical Note.
 Washington, DC: World Resources Institute. Available online at:
 https://www.wri.org/publication/aqueduct-30.  
 
+For the technical note, please click [here](https://www.wri.org/publication/aqueduct-30)
 
 This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our [FAQ page](todo). The methodology and a full description of the indicators can be found in the Aqueduct 3.0 technical note and future projections technical note (todo: add link when ready).   
 
