@@ -205,6 +205,9 @@ u	uncertainty value (available for seasonal variablity and water supply)
 ### {X}	Suffixes  
 l	label string  
 r	raw value  
+
+### Units 
+Units depend on the combination of tha above options. Units are [m/y] for ut, bt future value and dimensionless for ws and sv respectively. Other units are self-explanatory.   
 	
 For example the layer {ws4028cl} is "projected change in water stress by the year 2040 under a business as usual (ssp2 rcp85) scenario"	 
 
