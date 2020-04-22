@@ -42,7 +42,7 @@ See the [technical note](https://www.wri.org/publication/aqueduct-30) for an ove
 
 #### Vector | Tabular
 Spatial range: global  
-Spatial resolution: HydroBASINS level 6 
+Spatial resolution: HydroBASINS level 6   
 Temporal range: 1960-2014  
 Temporal resolution: monthly and annual  
 Data types: Tabular: .csv, Google BigQuery and PostgreSQL. Geometry: Geopackage
@@ -64,7 +64,7 @@ See the [technical note](https://www.wri.org/publication/aqueduct-30) for an ove
 #### Vector | Tabular
 
 Spatial range: global  
-Spatial resolution: HydroBASINS level 6 
+Spatial resolution: HydroBASINS level 6   
 Temporal range: 1960-2014  
 Temporal resolution: monthly and annual  
 Data types: Tabular: .csv, Google BigQuery and PostgreSQL. Geometry: Geopackage
