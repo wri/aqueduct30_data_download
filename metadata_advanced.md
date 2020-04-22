@@ -7,12 +7,18 @@ These other datasets are currently not shared with the exception of Aqueducut Al
 
 ### Gridded water withdrawal
 
-Spatial range: Global
-Spatial resolution: 5 arc minutes
-Temporal range: 1960-2014
-Temporal resolution: monthly and annual
-Data types: NETCDF, GeoTIFF, Earth Engine ImageCollection
-Description:
+Spatial range: Global  
+Spatial resolution: 5 arc minutes  
+Temporal range: 1960-2014  
+Temporal resolution: monthly and annual  
+Data types: NETCDF, GeoTIFF, Earth Engine ImageCollection  
+Description: See the [technical note](https://www.wri.org/publication/aqueduct-30) for an overview of the PCR-GLOBWB. Water withdrawal data is available for two types of withdrawal: total withdrawal or consumptive withdrawal. Total withdrawal is simply consumptive withdrawal plus non-consumptive withdrawal. The data is available for four sectors:  
+1. livestock
+1. irrigated agriculture
+1. industry
+1. domestic
+
+
 
 
 
