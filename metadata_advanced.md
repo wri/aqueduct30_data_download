@@ -7,7 +7,7 @@ These other datasets are currently not shared with the exception of Aqueducut Al
 
 ### Gridded water withdrawal
 
-Spatial range: Global  
+Spatial range: global  
 Spatial resolution: 5 arc minutes  
 Temporal range: 1960-2014  
 Temporal resolution: monthly and annual  
@@ -18,7 +18,14 @@ Description: See the [technical note](https://www.wri.org/publication/aqueduct-3
 1. industry
 1. domestic
 
+## Vecor water withdrawal
+Spatial range: global  
+Spatial resolution: HydroBASINS level 6 
+Temporal range: 1960-2014  
+Temporal resolution: monthly and annual
+Data types: Tabular: .csv, Google BigQuery and PostgreSQL. Geometry: Geopackage
 
+Same data as the gridded water withdrawal aggregated to HydroBASINS level 6. See the [technical note](https://www.wri.org/publication/aqueduct-30) for the methodology.
 
 
 
