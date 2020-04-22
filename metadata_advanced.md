@@ -44,7 +44,7 @@ See the [technical note](https://www.wri.org/publication/aqueduct-30) for an ove
 Spatial range: global  
 Spatial resolution: HydroBASINS level 6 
 Temporal range: 1960-2014  
-Temporal resolution: monthly and annual
+Temporal resolution: monthly and annual  
 Data types: Tabular: .csv, Google BigQuery and PostgreSQL. Geometry: Geopackage
 Description:  
 Same data as the gridded water withdrawal aggregated to HydroBASINS level 6. See the [technical note](https://www.wri.org/publication/aqueduct-30) for the methodology. In addition to the monthly or annual values, we've calculated certain statistical parameters including simple regressions.
@@ -55,9 +55,9 @@ Same data as the gridded water withdrawal aggregated to HydroBASINS level 6. See
 #### Gridded
 Spatial range: global  
 Spatial resolution: 5 arc minutes  
-Temporal range: 1960-2014  
+Temporal range: 1960-2014    
 Temporal resolution: monthly and annual  
-Data types: NETCDF, GeoTIFF, Earth Engine ImageCollection  
+Data types: NETCDF, GeoTIFF, Earth Engine ImageCollection   
 Description:  
 See the [technical note](https://www.wri.org/publication/aqueduct-30) for an overview of the PCR-GLOBWB. Accumulated water supply is a combination of surface and groundwater. 
 
@@ -66,7 +66,7 @@ See the [technical note](https://www.wri.org/publication/aqueduct-30) for an ove
 Spatial range: global  
 Spatial resolution: HydroBASINS level 6 
 Temporal range: 1960-2014  
-Temporal resolution: monthly and annual
+Temporal resolution: monthly and annual  
 Data types: Tabular: .csv, Google BigQuery and PostgreSQL. Geometry: Geopackage
 Description:  
 See the [technical note](https://www.wri.org/publication/aqueduct-30) for an overview of the PCR-GLOBWB. Accumulated water supply is a combination of surface and groundwater. The tabular data is aggregated to HydroBASINS level 6.
