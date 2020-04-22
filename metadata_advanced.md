@@ -25,7 +25,7 @@ Data types: GeoTIFF
 Description:  
 Number of upstream gridcells. 
 
-### water withdrawal
+### Water Withdrawal
 
 #### Gridded
 Spatial range: global  
@@ -33,7 +33,8 @@ Spatial resolution: 5 arc minutes
 Temporal range: 1960-2014  
 Temporal resolution: monthly and annual  
 Data types: NETCDF, GeoTIFF, Earth Engine ImageCollection  
-Description: See the [technical note](https://www.wri.org/publication/aqueduct-30) for an overview of the PCR-GLOBWB. Water withdrawal data is available for two types of withdrawal: total withdrawal or consumptive withdrawal. Total withdrawal is simply consumptive withdrawal plus non-consumptive withdrawal. The data is available for four sectors:  
+Description:  
+See the [technical note](https://www.wri.org/publication/aqueduct-30) for an overview of the PCR-GLOBWB. Water withdrawal data is available for two types of withdrawal: total withdrawal or consumptive withdrawal. Total withdrawal is simply consumptive withdrawal plus non-consumptive withdrawal. The data is available for four sectors:  
 1. livestock
 1. irrigated agriculture
 1. industry
@@ -45,7 +46,7 @@ Spatial resolution: HydroBASINS level 6
 Temporal range: 1960-2014  
 Temporal resolution: monthly and annual
 Data types: Tabular: .csv, Google BigQuery and PostgreSQL. Geometry: Geopackage
-
+Description:  
 Same data as the gridded water withdrawal aggregated to HydroBASINS level 6. See the [technical note](https://www.wri.org/publication/aqueduct-30) for the methodology. In addition to the monthly or annual values, we've calculated certain statistical parameters including simple regressions.
 
 
@@ -55,7 +56,8 @@ Spatial resolution: 5 arc minutes
 Temporal range: 1960-2014  
 Temporal resolution: monthly and annual  
 Data types: NETCDF, GeoTIFF, Earth Engine ImageCollection  
-Description: See the [technical note](https://www.wri.org/publication/aqueduct-30) for an overview of the PCR-GLOBWB. Water withdrawal data is available for two types of withdrawal: total withdrawal or consumptive withdrawal. Total withdrawal is simply consumptive withdrawal plus non-consumptive withdrawal. The data is available for four sectors:  
+Description:  
+See the [technical note](https://www.wri.org/publication/aqueduct-30) for an overview of the PCR-GLOBWB. Water withdrawal data is available for two types of withdrawal: total withdrawal or consumptive withdrawal. Total withdrawal is simply consumptive withdrawal plus non-consumptive withdrawal. The data is available for four sectors:  
 1. livestock
 1. irrigated agriculture
 1. industry
