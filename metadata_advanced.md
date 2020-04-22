@@ -25,6 +25,26 @@ Data types: GeoTIFF
 Description:  
 Number of upstream gridcells. 
 
+
+#### Environmental Flow
+Spatial range: global  
+Spatial resolution: 5 arc minutes 
+Temporal range: 1960-2014  
+Temporal resolution: Aggregate  
+Data types: GeoTIFF  
+Description:  
+Environmental flow requirement. 
+
+#### Soil Moisture
+Spatial range: global  
+Spatial resolution: 5 arc minutes 
+Temporal range: 1960-2014  
+Temporal resolution: monthly and annual  
+Data types: NETCDF, GeoTIFF, Earth Engine ImageCollection  
+Description:  
+Soil Moisture Data.
+
+
 ### Water Withdrawal
 
 #### Gridded
