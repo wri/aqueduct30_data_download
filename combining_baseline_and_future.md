@@ -34,7 +34,7 @@ Export the future data as .csv file
 
 Step 6:
 
-Open Excel and[import](https://support.office.com/en-us/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba?omkt=en-US&amp;ui=en-US&amp;rs=en-US&amp;ad=US) both csv files using the import data function. Using the import function will prevent data loss.
+Open Excel and [import](https://support.office.com/en-us/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba?omkt=en-US&amp;ui=en-US&amp;rs=en-US&amp;ad=US) both csv files using the import data function. Using the import function will prevent data loss.
 
 Step 7:
 
