@@ -173,7 +173,7 @@ The columns (attributes or fields) in the future projections results are grouped
 There are four indicators, three target years, three scenarios, three data types.  	
 
 The indicators use the following format:  
-{II}{YY}{SS}{R}{X}	 
+{II}{YY}{SS}{T}{X}	 
 
 II,	indicator code  
 YY,	year code   
