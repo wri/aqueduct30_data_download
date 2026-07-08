@@ -13,7 +13,7 @@ For the technical note, please click [here](https://www.wri.org/publication/aque
 This document helps you understand the downloaded Aqueduct water risk atlas data. For questions, check out our [FAQ page](todo). The methodology and a full description of the indicators can be found in the Aqueduct 3.0 technical note and future projections technical note (todo: add link when ready).   
 
 There are two ways to download Aqueduct water risk atlas data:  
-1.  The full database, available [here](https://wri-projects.s3.amazonaws.com/Aqueduct30/finalData/Y2019M07D12_Aqueduct30_V01.zip)
+1.  The full database, available [here](https://aqueduct.wridata.org/Aqueduct30/Y2019M07D12_Aqueduct30_V01.zip)
 1.  Site specific data by using the location analyzer in the Water Risk Atlas online tool. (Coming soon)  
 These files contain a few extra columns explained [here](https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md#extra-columns-for-location-analyzer)
 
@@ -173,7 +173,7 @@ The columns (attributes or fields) in the future projections results are grouped
 There are four indicators, three target years, three scenarios, three data types.  	
 
 The indicators use the following format:  
-{II}{YY}{SS}{R}{X}	 
+{II}{YY}{SS}{T}{X}
 
 II,	indicator code  
 YY,	year code   
